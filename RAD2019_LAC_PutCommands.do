@@ -19,8 +19,8 @@ putexcel B3 = matrix(val)
 
 * Add titles and formatting
 putexcel A1:B1 = "Table of Miles Per Gallon (MPG)", merge hcenter font(bold)
-putexcel A2 = "MPG"
-putexcel B2 = "Frequency"
+putexcel A2 = "Miles per Gallon"
+putexcel B2 = "Freq"
 putexcel A2:B2, overwritefmt border(bottom)
 
 * Close file
